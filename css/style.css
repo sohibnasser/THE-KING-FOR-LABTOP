@@ -1,0 +1,301 @@
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/*                        NAVBAR                       */
+.navbar{
+    overflow: hidden;
+}
+
+#king{
+    color: #0d6efd;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #5a98f4;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.navbar-nav .nav-item .active{
+    color: #0d6efd;
+}
+
+.nav-item>div{
+    width:18rem;
+    margin-bottom: 20px;
+}
+
+
+/*                        CARDS HOME                       */
+
+#cards{
+    width: 100%;
+    height:700px;
+    margin-top: 5%;
+}
+
+.one{
+    width: 25%;
+    height: 100%;
+}
+
+.two{
+   width: 50%;
+   height: auto;
+}
+
+.two>img{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.three{
+    width: 25%;
+    height: 100%;
+}
+
+.img{
+    margin-bottom: 20%;
+}
+
+
+
+/*                        PRODUCT OVERVIEW                       */
+
+.product{
+    text-align: center;
+    padding-bottom: 4%;
+    color: #0d6efd;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+#button{
+    margin: auto;
+   width: 80%;
+}
+
+#work{
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+.tab-pane>div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#work>div p{
+font-size: 15px;
+}
+
+#work>div h1{
+   
+    font-size: 25px;
+    color: #0d6efd;
+}
+
+.carousel-inner{
+    height: 180px;
+    text-align: center;
+}
+
+.carousel-item{
+    height: 80%;
+}
+
+
+
+
+/*                        ABOUT-US                       */
+
+.about-us{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color:#0d6efd;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    width: 100%;
+    display: flex;
+    padding:5% 0 5% 0;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+
+#info{
+    height: 100%;
+    padding-left: 8%;
+}
+
+#info>h1{
+color: #0d6efd;
+font-size: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#info>p{
+    font-size: 17px;
+}
+
+#images{
+    height: 100%;
+    padding-left: 15%;
+    padding-top: 1%;
+}
+
+#images .img1>img{
+    padding-left: 5px;
+}
+
+#images .img2>img{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+/*                        SERVICES                       */
+
+#services {
+    padding-top: 50px;
+}
+.title{
+    padding-bottom: 50px;
+    color:#0d6efd;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+.services-box {
+	text-align: center;
+	margin-bottom: 30px;
+	border: 1px solid #EAE7E7;
+	padding: 29px 10px 20px;
+}
+
+.services-box:hover {
+background-color: #0d6efd;
+color: #fff;
+transition: all 1.1s;
+}
+
+
+.services-box .services-icon {
+	width: 80px;
+	height: 80px;
+	color: #FFF;
+	font-size: 38px;
+	line-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0px auto;
+	background: #0d6efd none repeat scroll 0% 0%;
+}
+
+
+
+.services-box .services-desc {
+	margin-top: 25px;
+   
+}
+
+.services-box .services-desc h4 {
+	margin: 31px 0px 20px;
+}
+
+
+
+/*                        CONTACT US                       */
+
+#contact {
+	background:url(../images/contact.jpg) no-repeat;
+   
+}
+
+.title{
+    padding-top: 5%;
+    color: #0d6efd;
+}
+.contact-info {
+	margin-bottom:65px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    line-height: 13px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.contact-form {
+	display: block;
+	padding-bottom: 80px;
+    margin:auto;
+}
+
+.post .form-control{
+    margin-bottom: 5%;
+}
+
+.contact-form button {
+    margin-top: 10px;
+}
+
+
+/*                        FOOTER                       */
+
+footer {
+	padding: 17px 0px 10px;
+}
+
+.social-icons {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align:right;
+}
+
+.social-icons ul {
+	margin:0px;
+	padding:0px;
+}
+
+.social-icons ul li {
+	list-style:none;
+	display:inline-block;
+}
+
+.social-icons ul li a {
+	margin-right:10px;
+	display: inline-block;	
+}
+
+
+.copyright {
+	margin-top: 15px;
+}
+
+.copyright p{
+	color:#0d6efd;
+}
+
+
+
